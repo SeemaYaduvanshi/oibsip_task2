@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="logo.png" class="logo"/>  
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Seema Yadav</span><br/> from Gorakhpur</h1>
+            </div>
+        </div> 
+    </div>
+    <!--  --------- About-----------  -->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Seema.jpg"/>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Seema yadav from Siddharth Nagar</p>
+
+                <div class="tab-titles" >
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')" > Experience</p>
+                        <p class="tab-links"onclick="opentab('education')" >Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li>Web Development</li>
+                            <li>App Development</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>2021</span><br/>Python Training at <br/>Softpro India Pvt.Ltd Lucknow</li>
+                            <li><span>2023</span><br/>Python with Django Training at <br/>Techpile Technoloy Pvt.Ltd Lucknow</li>
+                            <li><span>2023</span><br/>Full Stack Development Intern <br/>at Bharat intern</li>
+                            <li><span>2023</span><br/>Web Development Intern <br/>at Bharat intern</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education" >
+                        <ul>
+                            <li><span>2022-Current</span><br/>B.Tech in Information Technology<br/> from Rajkiya Engineering<br/> College Banda</li>
+                            <li><span>2019-2022</span><br/>3 years Diploma in<br/> Computer Science and Engg.<br/> from Govt. Girls<br/> Polytechnic Gorakhpur</li>
+                            <li><span>2019</span><br/>High Scholl from<br/> Saraswati Vidaya Mandir</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ----------Services -------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Web design is more about the experiential side of a website that ensures the audience finds the website useful, immersive, and engaging.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- --------------- Portfolio ---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.webp"/>
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects with you to the talented people around the world.
+                            Download it from play store</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png" />
+                    <div class="layer">
+                        <h3>Music  App</h3>
+                        <p>A mobile phone application that allows you to listen to music files stored in the phone's internal or external memory.
+                            Download it from play store</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg"/>
+                    <div class="layer">
+           
+                        <h3>Online Shopping App</h3>
+                        <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.
+                            Download it from play store</p>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!--  -----------------contact--------------- -->
+<div id="contact">
+<div class="container">
+     <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p></i> seema7974yadav@gmail.com</p>
+            <p></i> 8175067291</p>
+            <a href="Seema Yadav Resume .pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2"> Submit</button>
+        </form>
+        </div>
+     </div>    
+</div>
+<div class="copyright">
+    <p>copyright &copy; Made by Seema yadav</p>
+</div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+    
+        }
+    </script>
+
+
+</body>
+</html>
